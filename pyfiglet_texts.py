@@ -10,6 +10,6 @@ def figletty(){
 }
 figletty()
 pfy_choice = str(input('Type yes if you want to try it out').lower())
-if(pfy_choice == 'yes' | 's'):
+if(pfy_choice == 'yes'):
   figletty()
   
